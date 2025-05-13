@@ -11,10 +11,20 @@
 
 **/node_modules/
 **/package-lock.json
-**/env.local
-**/env.development.local
-**/env.test.local
-**/env.production.local
-**/env.development
-**/env.test
-**/env.production
+
+# Environment files
+**/*.env.local
+**/*.env.development.local
+**/*.env.test.local
+**/*.env.production.local
+**/*.env.development
+**/*.env.test
+**/*.env.production
+
+# Project specific .env files
+/backend/.env
+/backend/.env.*
+/frontend/.env
+/frontend/.env.*
+/admin/.env
+/admin/.env.*
