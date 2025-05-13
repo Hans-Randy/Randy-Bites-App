@@ -26,9 +26,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 
 app.get("/", (req, res) => {
-  res.send("API Working");
+  res.send("Health Check. API is working");
 });
 
-app.listen(port, () =>
-  console.log(`Server started on http://localhost:${port}`)
-);
+app.listen(port, () => console.log(`Server started port:${port}`));
