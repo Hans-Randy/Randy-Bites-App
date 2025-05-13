@@ -1,0 +1,20 @@
+# Editor directories and files
+**/.vscode/*
+**/.idea/*
+**/.DS_Store
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+
+**/node_modules/
+**/package-lock.json
+**/env.local
+**/env.development.local
+**/env.test.local
+**/env.production.local
+**/env.development
+**/env.test
+**/env.production
